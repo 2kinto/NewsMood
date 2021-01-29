@@ -53,7 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				1C1A7B1C25C48C8D00CB8320 /* What_is_thisApp.swift */,
-				1C1A7B1E25C48C8D00CB8320 /* ContentView.swift */,
+				1C1A7B2C25C4922D00CB8320 /* Views */,
+				1C1A7B2D25C492CB00CB8320 /* Model */,
+				1C1A7B2E25C492E500CB8320 /* Resources */,
 				1C1A7B2025C48C8E00CB8320 /* Assets.xcassets */,
 				1C1A7B2525C48C8E00CB8320 /* Info.plist */,
 				1C1A7B2225C48C8E00CB8320 /* Preview Content */,
@@ -67,6 +69,28 @@
 				1C1A7B2325C48C8E00CB8320 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C1A7B2C25C4922D00CB8320 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A7B1E25C48C8D00CB8320 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C1A7B2D25C492CB00CB8320 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C1A7B2E25C492E500CB8320 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
