@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "030A2449-A626-4C94-B4A7-D298F74E1C39"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C35E01A8-562D-4841-8EAB-22891662C158"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "What is this/Model/ModelData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C35E01A8-562D-4841-8EAB-22891662C158 - c4f01e1ef5e797dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_41E0F2BD6292F40E275F6E5A8C65175D_func0"
+                  moduleName = "What is this"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Phantasy/Documents/IOS%20Project/What%20is%20this/What%20is%20this/Model/ModelData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "C35E01A8-562D-4841-8EAB-22891662C158 - ab1680223053747b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "What_is_this.newsSet.unsafeMutableAddressor : Swift.Array&lt;What_is_this.News&gt;"
+                  moduleName = "What is this"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Phantasy/Documents/IOS%20Project/What%20is%20this/What%20is%20this/Model/ModelData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
