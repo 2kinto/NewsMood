@@ -12,7 +12,7 @@ import SwiftUI
 
 class SentimentsAnalyseManager: ObservableObject {
     var news: String = ""
-    @Published var predictionLabel : String? = "ニュースの印象を分類中..."
+    @Published var predictionLabel : String? = "クリックして分析結果を取得"
     
     func predict(_ news: String) {
         do
