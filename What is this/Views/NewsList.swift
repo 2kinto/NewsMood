@@ -11,7 +11,7 @@ struct NewsList: View {
     var body: some View {
         NavigationView {
             List(newsSet) { news in
-                NavigationLink(destination: NewsDetail(news: news)) {
+                NavigationLink(destination: NewsDetail(news: news, newsDetection: SentimentsAnalyseManager())) {
                     NewsRow(news: news)
                 }
             }

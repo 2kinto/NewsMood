@@ -28,7 +28,7 @@ struct NewsRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             NewsRow(news: newsSet[0])
-            NewsRow(news: newsSet[1])
+//            NewsRow(news: newsSet[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }

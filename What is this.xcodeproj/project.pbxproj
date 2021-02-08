@@ -13,12 +13,10 @@
 		1C1A7B2425C48C8E00CB8320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A7B2325C48C8E00CB8320 /* Preview Assets.xcassets */; };
 		1C1A7B3125C49A4800CB8320 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A7B3025C49A4800CB8320 /* NewsList.swift */; };
 		1C1A7B3425C49AAC00CB8320 /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A7B3325C49AAC00CB8320 /* NewsRow.swift */; };
-		1C1A7B3825C5759300CB8320 /* PredictNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A7B3725C5759300CB8320 /* PredictNews.swift */; };
 		1C1A7B3B25C5C80F00CB8320 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A7B3A25C5C80F00CB8320 /* ModelData.swift */; };
 		1C1A7B3E25C5C8F000CB8320 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A7B3D25C5C8F000CB8320 /* News.swift */; };
 		1C1A7B4425C610D200CB8320 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A7B4325C610D200CB8320 /* NewsDetail.swift */; };
 		1C2176E625CFEC4A008BF1D7 /* SentimentsAnalyseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2176E525CFEC4A008BF1D7 /* SentimentsAnalyseManager.swift */; };
-		1C80190825C757AE009C71B3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C80190725C757AE009C71B3 /* SwiftUIView.swift */; };
 		1C80192A25C85B79009C71B3 /* newsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C80192925C85B79009C71B3 /* newsData.json */; };
 		1CC2B5B925CF9E3700432C6B /* SentimentsAnalyse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2B5B825CF9E3700432C6B /* SentimentsAnalyse.mlmodel */; };
 /* End PBXBuildFile section */
@@ -32,12 +30,10 @@
 		1C1A7B2525C48C8E00CB8320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1A7B3025C49A4800CB8320 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
 		1C1A7B3325C49AAC00CB8320 /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
-		1C1A7B3725C5759300CB8320 /* PredictNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictNews.swift; sourceTree = "<group>"; };
 		1C1A7B3A25C5C80F00CB8320 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		1C1A7B3D25C5C8F000CB8320 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		1C1A7B4325C610D200CB8320 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
 		1C2176E525CFEC4A008BF1D7 /* SentimentsAnalyseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentsAnalyseManager.swift; sourceTree = "<group>"; };
-		1C80190725C757AE009C71B3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		1C80192925C85B79009C71B3 /* newsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newsData.json; sourceTree = "<group>"; };
 		1CC2B5B825CF9E3700432C6B /* SentimentsAnalyse.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SentimentsAnalyse.mlmodel; path = ../../../../Downloads/SentimentsAnalyse.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,9 +94,7 @@
 				1C1A7B1E25C48C8D00CB8320 /* ContentView.swift */,
 				1C1A7B3325C49AAC00CB8320 /* NewsRow.swift */,
 				1C1A7B3025C49A4800CB8320 /* NewsList.swift */,
-				1C1A7B3725C5759300CB8320 /* PredictNews.swift */,
 				1C1A7B4325C610D200CB8320 /* NewsDetail.swift */,
-				1C80190725C757AE009C71B3 /* SwiftUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,9 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1A7B3825C5759300CB8320 /* PredictNews.swift in Sources */,
 				1C1A7B3425C49AAC00CB8320 /* NewsRow.swift in Sources */,
-				1C80190825C757AE009C71B3 /* SwiftUIView.swift in Sources */,
 				1C1A7B3125C49A4800CB8320 /* NewsList.swift in Sources */,
 				1C1A7B4425C610D200CB8320 /* NewsDetail.swift in Sources */,
 				1C1A7B1F25C48C8D00CB8320 /* ContentView.swift in Sources */,
