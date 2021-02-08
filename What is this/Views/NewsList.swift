@@ -15,8 +15,8 @@ struct NewsList: View {
                     NewsRow(news: news)
                 }
             }
+            .navigationTitle("TeamLab News")
         }
-        .navigationTitle("TeamLab News")
     }
 }
 

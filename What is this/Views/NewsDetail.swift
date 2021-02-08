@@ -9,9 +9,14 @@ import SwiftUI
 
 struct NewsDetail: View {
     var news: News
+    var label = predict(newsSet[0].content)
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            news.image
+            Text(news.content)
+            Text(label!)
+        }
     }
 }
 
