@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct NewsList: View {
+
     var body: some View {
         NavigationView {
-            List(newsSet) { news in
+            List(NetworkingManager().newsSet, id: \.id) { news in
                 NavigationLink(destination: NewsDetail(news: news, newsDetection: SentimentsAnalyseManager())) {
                     NewsRow(news: news)
                 }
             }
             .navigationTitle("TeamLab News")
+            .onAppear(perform: NetworkingManager().load)
         }
     }
 }

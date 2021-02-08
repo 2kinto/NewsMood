@@ -13,7 +13,8 @@ struct NewsDetail: View {
     
     var body: some View {
         VStack {
-            news.image                .resizable()
+            news.image
+                .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             Text(news.title).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             Text(news.content)
@@ -31,6 +32,6 @@ struct NewsDetail: View {
 
 struct NewsDetail_Previews: PreviewProvider {
     static var previews: some View {
-        NewsDetail(news: newsSet[0], newsDetection: SentimentsAnalyseManager())
+        NewsDetail(news: NetworkingManager().newsSet[0], newsDetection: SentimentsAnalyseManager())
     }
 }

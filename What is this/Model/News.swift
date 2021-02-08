@@ -8,14 +8,31 @@
 import Foundation
 import SwiftUI
 
-struct News: Hashable, Codable, Identifiable {
+struct Response: Codable {
+//    var status: String
+//    var totalResults: Int
+    var news: [News]
+}
+
+struct News: Codable {
     var id: Int
     var title: String
     var description: String
     var content: String
-
-    private var imageName: String
+    private var urlToImage: String
     var image: Image {
-        Image(imageName)
+        Image(urlToImage)
     }
 }
+
+//struct News: Hashable, Codable, Identifiable {
+//    var id: Int
+//    var title: String
+//    var description: String
+//    var content: String
+//
+//    private var imageName: String
+//    var image: Image {
+//        Image(imageName)
+//    }
+//}
