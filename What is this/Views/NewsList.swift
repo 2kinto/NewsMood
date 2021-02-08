@@ -11,7 +11,7 @@ struct NewsList: View {
 
     var body: some View {
         NavigationView {
-            List(NetworkingManager().newsSet, id: \.id) { news in
+            List(NetworkingManager().newsSet, id: \.title) { news in
                 NavigationLink(destination: NewsDetail(news: news, newsDetection: SentimentsAnalyseManager())) {
                     NewsRow(news: news)
                 }

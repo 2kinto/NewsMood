@@ -9,16 +9,14 @@ import Foundation
 import SwiftUI
 
 struct Response: Codable {
-//    var status: String
-//    var totalResults: Int
-    var news: [News]
+    var articles: [News]
 }
 
 struct News: Codable {
-    var id: Int
     var title: String
     var description: String
     var content: String
+    
     private var urlToImage: String
     var image: Image {
         Image(urlToImage)
