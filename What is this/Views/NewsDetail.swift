@@ -6,6 +6,7 @@
 
 
 import SwiftUI
+import URLImage
 
 struct NewsDetail: View {
     var news: News
@@ -13,9 +14,11 @@ struct NewsDetail: View {
     
     var body: some View {
         VStack {
-            news.image
-                .resizable()
-                .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            URLImage(url:  news.image) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
             Text(news.title).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             Text(news.content)
                 .padding()
@@ -32,6 +35,6 @@ struct NewsDetail: View {
 
 struct NewsDetail_Previews: PreviewProvider {
     static var previews: some View {
-        NewsDetail(news: NetworkingManager().newsSet[0], newsDetection: SentimentsAnalyseManager())
+        NewsDetail(news: NewsList().newsSet[0], newsDetection: SentimentsAnalyseManager())
     }
 }

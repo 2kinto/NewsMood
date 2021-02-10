@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		1C2176F925D1012B008BF1D7 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2176F825D1012B008BF1D7 /* NetworkingManager.swift */; };
 		1C80192A25C85B79009C71B3 /* newsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C80192925C85B79009C71B3 /* newsData.json */; };
 		1CC2B5B925CF9E3700432C6B /* SentimentsAnalyse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2B5B825CF9E3700432C6B /* SentimentsAnalyse.mlmodel */; };
+		1CEBB88825D3A61900DAE586 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1CEBB88725D3A61900DAE586 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEBB88825D3A61900DAE586 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +138,9 @@
 			dependencies = (
 			);
 			name = "What is this";
+			packageProductDependencies = (
+				1CEBB88725D3A61900DAE586 /* URLImage */,
+			);
 			productName = "What is this";
 			productReference = 1C1A7B1925C48C8D00CB8320 /* What is this.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +168,9 @@
 				Base,
 			);
 			mainGroup = 1C1A7B1025C48C8D00CB8320;
+			packageReferences = (
+				1CEBB88625D3A61900DAE586 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 1C1A7B1A25C48C8D00CB8320 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -388,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CEBB88625D3A61900DAE586 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CEBB88725D3A61900DAE586 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CEBB88625D3A61900DAE586 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C1A7B1125C48C8D00CB8320 /* Project object */;
 }
